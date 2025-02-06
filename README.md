@@ -4,6 +4,7 @@ This repository implements several types of attention modules in PyTorch, includ
 * Multi-head Attention: A multi-head attention module that performs attention on multiple different "heads"(each head is a set of Q, K, V) of the input sequence.
 * Multi-Query Attention: A multi-query attention module that allows multiple queries and only one key, value to attend to the same input sequence.
 * Grouped-Query Attention: A grouped query attention module that allows queries to be grouped together (each group include multiple queries and only one key) and attended to jointly.
+* Multi-Head Latent Attention (MLA), Deepseek, 简介(https://zhuanlan.zhihu.com/p/16730036197)
 
 <p align="center">
   <img src="images/grouped-query-attention.png" />
